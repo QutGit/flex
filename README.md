@@ -33,12 +33,18 @@
   align-content:定义了多跟轴线的对齐方式，如果项目只有一根轴线，该属性不起作用
 
 7.flex项属性（设置在flex项上）
+
   order: 定义flex项排列顺序，数值越小，排列越靠前，默认为0
+  
   flex-grow:定义flex项的放大比例，默认为0，即，如果存在剩余空间也不放大
+  
   flex-shrink:定义了flex项的缩小比例，默认为1，即，如果空间不足，该flex项将缩小
+  
   flex-basis:定义了在分配多余空间之前，flex项占据主轴空间。浏览器根据这个属性，计算主轴是否有多余空间，默认值为auto，即flex项本来大小
+  
   flex:是 flex-grow，flex-shrink，flex-basis的简写，默认值为 0 1 auto，后两者的属性可选，该属性有两个快捷值：auto(1 1 auto) 和 none(0 0 auto)
        建议优先使用这个属性，而不是单独写三个分离的属性，因为浏览器会推算相关值
+       
   align-self:属性允许单个flex项有与其他flex项有不一样的对齐方式，可覆盖align-items属性。默认值为auto，
              表示继承父元素的align-items属性，如果没有父元素则等同于stretch
 
