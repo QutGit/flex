@@ -1,4 +1,11 @@
 # Flex 布局
+
+参考地址：
+
+语法：http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
+实例：http://www.ruanyifeng.com/blog/2015/07/flex-examples.html
+
+
 1.布局 传统解决方案
   基于盒状模型，依赖 display 属性 + position 属性 + float 属性
   缺点：对于那些特殊布局非常不用一实现，比如垂直居中
