@@ -25,12 +25,19 @@
 5.容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis），flex项默认沿主轴排列
 
 6.容器的属性（设置在容器上）
+
   flex-direction：决定主轴的方向（flex项的排列方向）：沿主轴或者交叉轴排列
+  
   flex-wrap:默认情况下，flex项都排在一条直线上，flex-wrap属性定义，如果一条轴线排不下如何换行
+  
   flex-flow：是flex-direction属性和 flex-wrap属性的简写形势，默认值为 row nowrap
+  
   justify-content ：定义了flex项在主轴上的对齐方式
+  
   align-items:定义项目在交叉轴上如何对齐
+  
   align-content:定义了多跟轴线的对齐方式，如果项目只有一根轴线，该属性不起作用
+ 
 
 7.flex项属性（设置在flex项上）
 
